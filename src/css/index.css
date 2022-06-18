@@ -84,6 +84,7 @@ nav .menu_link {
   min-height: 800px;
   padding: 150px 0 135px;
   background: url("../images/bg/uber_bg.png") center center/cover no-repeat;
+  background-attachment: fixed;
 }
 .promo_heading {
   font-weight: 700;
@@ -123,4 +124,135 @@ nav .menu_link {
   text-transform: uppercase;
   color: #FFFFFF;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.top_heading {
+  display: block;
+  margin: 0 auto;
+  width: 115px;
+  height: 27px;
+  background: #000000;
+  font-weight: 400;
+  line-height: 27px;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.advantages {
+  min-height: 850px;
+  padding: 20px 0 65px;
+}
+.advantages h3 {
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 33px;
+  color: #222222;
+}
+.advantages_item {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advantages_item .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+  background: #1EACC7;
+  margin: 0 25px 0 33px;
+}
+.advantages_text {
+  width: 370px;
+}
+.advantages_text h4 {
+  font-weight: 400;
+  font-size: 17px;
+  color: #1EACC7;
+  margin-bottom: 4px;
+}
+.advantages_text p {
+  font-weight: 300;
+  font-size: 15px;
+  color: #202020;
+}
+
+.capabilities {
+  min-height: 864px;
+  background: url("../images/bg/cover_bg.png");
+}
+.capabilities .container {
+  padding: 46px 23px 80px;
+}
+.capabilities h3 {
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  margin-top: 32px;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 0;
+}
+.capabilities p {
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  color: #222222;
+}
+.capabilities .card {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin-top: 20px;
+}
+.capabilities .card img {
+  position: absolute;
+}
+.capabilities .card h4 {
+  margin-top: 84px;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.capabilities .card .plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  background: #000000;
+  border-radius: 50%;
+  bottom: 34px;
+}
+.capabilities .card .plus::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  background: #1EACC7;
+  z-index: 2;
+}
+.capabilities .card .plus::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 14px;
+  background: #1EACC7;
+  z-index: 2;
 }
